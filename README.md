@@ -3,6 +3,7 @@
 # FTP Client on local machine
 # Remotely accessible FTP Server
 # Windows OS Device/VM and target
+# Store One_Drive_Expansion_Package.bat file on FTP server
 # Description:
 # C&C over FTP
 # Enables persistent remote access on a Windows 10 device over FTP
